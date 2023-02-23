@@ -7,13 +7,39 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Hello world</h1>
+    <header>
+        <div class="links">
+            <a href="#">Store</a>
+            <a href="#">Mac</a>
+            <a href="#">iPad</a>
+            <a href="#">iPhone</a>
+            <a href="#">Watch</a>
+            <a href="#">AirPods</a>
+            <a href="#">TV & Home</a>
+            <a href="#">Entertaiment</a>
+            <a href="#">Accessories</a>
+            <a href="#">Support</a>
+        </div>
+    </header>
 
     <style>
         body {
             background: black;
         }
-        h1 {
+        header {
+            height: 50px; width: 100%;
+            background: gray;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .links {
+            height: 50px; width: 60%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        a {
             color: white;
             font-family: Arial, Helvetica, sans-serif;
         }
